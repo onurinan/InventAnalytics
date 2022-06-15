@@ -1,0 +1,61 @@
+table,
+th,
+td {
+  padding: 10px;
+}
+
+.poster {
+  width: 100px;
+}
+
+table {
+  width: 80%;
+  margin: 40px 0;
+}
+
+.poster-cell {
+  text-align: center;
+}
+
+.title {
+  text-decoration: none;
+  color: black;
+}
+
+.header > button {
+  margin-left: 10px;
+}
+
+.header-input {
+  background-color: #97a3b1;
+  border: 2px solid transparent;
+  color: #d00058;
+  padding: 10px 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.header-input:focus {
+  outline: none;
+  border: 2px solid #d00058;
+}
+
+button {
+  color: #d00058;
+  padding: 10px 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d00058;
+  color: white;
+}
+
+@media screen and (max-width: 475px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
